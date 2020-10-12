@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Pumpkin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/pumpkin.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="js/find-pumpkin.js"></script>
+</head>
+<body>
+<header>
+    Угадай тыкву за 10 секунд
+</header>
+<div class="game-field">
+    <ul class="pump_items">
+        <li class="first-item">
+            <img class="item i-1" src="pic/pumpkin-no-active.jpg" alt="pumpkin">
+        </li>
+        <li class="second-item">
+            <img class="item i-2" src="pic/pumpkin-no-active.jpg" alt="pumpkin">
+        </li>
+        <li>
+            <img class="item i-3" src="pic/pumpkin-no-active.jpg" alt="pumpkin">
+        </li>
+        <li class="middle">
+            <img class="item i-4" src="pic/pumpkin-no-active.jpg" alt="pumpkin">
+        </li>
+        <li>
+            <img class="item i-5" src="pic/pumpkin-no-active.jpg" alt="pumpkin">
+        </li>
+    </ul>
+    <div class="timer">
+        10
+    </div>
+</div>
+<div class="pop-up-result">
+    <span class='is-winner'></span>
+    <span class="button-repeat">Играть снова</span>
+</div>
+</body>
+</html>
